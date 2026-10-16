@@ -1266,7 +1266,17 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Emprunt"
+					"name": "Emprunt",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGhRB05QmOcvLk=",
+							"_parent": {
+								"$ref": "AAAAAAGhQ+TB4GH0Wgk="
+							},
+							"name": "dateEmprunt"
+						}
+					]
 				},
 				{
 					"_type": "UMLClass",
@@ -1569,7 +1579,7 @@
 											"parentStyle": true,
 											"left": 197,
 											"top": 87,
-											"width": 54.44091796875,
+											"width": 83.0244140625,
 											"height": 13,
 											"text": "Emprunt"
 										},
@@ -1607,7 +1617,7 @@
 									"parentStyle": true,
 									"left": 192,
 									"top": 80,
-									"width": 64.44091796875,
+									"width": 93.0244140625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhQ/cyDGN0IQs="
@@ -1631,12 +1641,32 @@
 									"model": {
 										"$ref": "AAAAAAGhQ+TB4GH0Wgk="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGhRB05XmOfpWI=",
+											"_parent": {
+												"$ref": "AAAAAAGhQ/cyDGN4N0U="
+											},
+											"model": {
+												"$ref": "AAAAAAGhRB05QmOcvLk="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 197,
+											"top": 110,
+											"width": 83.0244140625,
+											"height": 13,
+											"text": "+dateEmprunt",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 192,
 									"top": 105,
-									"width": 64.44091796875,
-									"height": 10
+									"width": 93.0244140625,
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1650,8 +1680,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 192,
-									"top": 115,
-									"width": 64.44091796875,
+									"top": 128,
+									"width": 93.0244140625,
 									"height": 10
 								},
 								{
@@ -1694,8 +1724,8 @@
 							"containerChangeable": true,
 							"left": 192,
 							"top": 80,
-							"width": 63.44091796875,
-							"height": 45,
+							"width": 92.0244140625,
+							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGhQ/cyDGNzzzQ="
 							},
